@@ -89,7 +89,7 @@ function InstallGost() {
     if [[ ${ans} = n ]]; then
         echo -e "下载安装最新gost"
         version=`GetLatestRelease ginuerzh/gost | sed -e "s|^v||"`
-        wget "https://yunpan.sk222.cf/Cloud/gost.gz" -O gost.gz
+        wget "https://yunpan.kyxz.ml/Cloud/gost.gz" -O gost.gz
         gunzip gost.gz
     fi
     # 清理安装的环境，防止重复安装的影响
